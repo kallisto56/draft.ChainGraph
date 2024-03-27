@@ -1,0 +1,161 @@
+FileVersion = 1
+LastConfig = "Paranoid"
+LastPlatform = "Win64"
+RecentFilesList = ["src\\Program.bf", "src\\ChainGraph\\ChainGraph.bf", "src\\ChainGraph\\Chain.bf", "src\\ChainGraph\\Command.bf", "System.Math\\src\\Color.bf", "System.Engine\\src\\Graphics\\RenderGraph\\RenderGraph.ResourceAlias.bf", "System.Engine\\src\\Graphics\\RenderGraph\\RenderGraph.Chain.bf", "System.Engine\\src\\Graphics\\RenderGraph\\RenderGraph.Command.bf", "System.Engine\\src\\Graphics\\RenderGraph\\RenderGraph.IResourceAlias.bf", "System.Engine\\src\\Graphics\\Framebuffer\\Framebuffer.bf", "test.Program\\src\\Program.bf", "System.Engine\\src\\Graphics\\RenderPipeline\\RenderPipeline.bf", "System.Engine\\src\\Graphics\\RenderTexture\\RenderTexture.bf", "System.Engine\\src\\NewGraphics2D\\Graphics2D.bf", "System.Engine\\src\\Graphics3D\\Graphics3D.bf", "System.Engine\\src\\Graphics3D\\Graphics3D.Description.bf", "System.Engine\\src\\Graphics\\RenderTexture\\RenderTexture.Description.bf", "System.Engine\\src\\Engine\\Engine.bf", "System.Diagnostics.Tracy\\src\\Tracy.bf"]
+
+[MainWindow]
+X = 304
+Y = 325
+Width = 1020
+Height = 765
+ShowKind = "ShowMaximized"
+
+[MainDockingFrame]
+Type = "DockingFrame"
+SplitType = 2
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 397.0
+RequestedHeight = 653.0
+SizePriority = 653.0
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+IsFillWidget = true
+Permanent = true
+RequestedWidth = 150.0
+RequestedHeight = 653.0
+SizePriority = 150.0
+DefaultDocumentsTabbedView = true
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Program.bf"
+TabWidth = 96.0
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "src\\Program.bf"
+CursorPos = 4592
+VertPos = 2160.0
+ProjectName = "test.ChainedRenderGraph"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "ChainGraph.bf"
+TabWidth = 123.0
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "src\\ChainGraph\\ChainGraph.bf"
+CursorPos = 2656
+VertPos = 1520.0
+ProjectName = "test.ChainedRenderGraph"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Chain.bf"
+TabWidth = 87.0
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "src\\ChainGraph\\Chain.bf"
+CursorPos = 114
+ProjectName = "test.ChainedRenderGraph"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Command.bf"
+TabWidth = 115.0
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "src\\ChainGraph\\Command.bf"
+CursorPos = 84
+VertPos = 624.0
+ProjectName = "test.ChainedRenderGraph"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 292.0
+RequestedHeight = 190.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Workspace"
+TabWidth = 115.0
+TabIsPinned = false
+Type = "ProjectPanel"
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 718.0
+RequestedHeight = 243.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Output"
+TabWidth = 90.0
+TabIsPinned = false
+Type = "OutputPanel"
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+TabLabel = "Watch"
+TabWidth = 86.0
+TabIsPinned = false
+Type = "WatchPanel"
+Columns = [{Width = 200.0}, {Width = 200.0}, {Width = 200.0}]
+Items = [""]
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+TabLabel = "Call Stack"
+TabWidth = 105.0
+TabIsPinned = false
+Type = "CallStackPanel"
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+TabLabel = "Find Results"
+TabWidth = 119.0
+TabIsPinned = false
+Type = "FindResultsPanel"
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+TabLabel = "Disassembly"
+TabWidth = 122.0
+TabIsPinned = false
+Type = "DisassemblyPanel"
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+TabLabel = "Errors"
+TabWidth = 86.0
+TabIsPinned = false
+Type = "ErrorsPanel"
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+TabLabel = "Diagnostics"
+TabWidth = 117.0
+TabIsPinned = false
+Type = "DiagnosticsPanel"
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+TabLabel = "Auto Watches"
+TabWidth = 130.0
+TabIsPinned = false
+Type = "AutoWatchPanel"
+Columns = [{Width = 289.0}, {Width = 872.0}, {Width = 200.0}]
+
+[[BookmarkFolders]]
+Title = ""
+
+[[BookmarkFolders.Bookmarks]]
+File = "test.Program\\src\\Cockpit\\SurfaceGeometry.bf"
+Line = 72
+Column = 2
+Title = "#1 SurfaceGeometry.Initialize"
+
+[DebuggerDisplayTypes.""]
+IntDisplayType = "Decimal"
+
+[OutputFilters]
+ModuleLoadMessages = true
+ModuleUnloadMessages = true
+ProcessExitMessages = true
+ThreadCreateMessages = true
+ThreadExitMessages = true
+SymbolLoadMessages = true
+ProgramOutput = true

@@ -1,0 +1,6 @@
+FileVersion = 1
+
+[Project]
+Name = "test.ChainedRenderGraph"
+TargetType = "BeefGUIApplication"
+StartupObject = "test.ChainedRenderGraph.Program"
